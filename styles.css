@@ -27,11 +27,13 @@ button {
     border-radius: 10px;
     border: none;
     margin-bottom: 10px;
+    padding: 5px;
 }
 
 p {
-    margin-bottom: 10px;
+    margin: 10px;
     font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .container {
@@ -40,12 +42,37 @@ p {
     align-items: center;
     background-color: rgb(149, 255, 255);
     border-radius: 10px;
+    border-right: 2px solid black;
+    max-height: 240px;
+}
+
+.containerAside span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(72, 126, 126);
+    margin: 20px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+aside h1 {
+    margin-top: 10px;
+    margin: 10px 10px 0 10px;
+}
+
+aside {
+    background-color: rgb(149, 255, 255);
+    border-left: 2px black solid;
+    border-radius: 10px;
+    height: 200px;
 }
 
 .textoPrincipal {
     margin-top: 10px;
+    margin: 10px 10px 0 10px;
 }
 
 .textoSecundario {
-    margin: 30px;
+    margin-top: 10px;
 }

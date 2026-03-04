@@ -8,9 +8,11 @@
     </head>
 
     <body>
+        
+        
         <div class="container">
-            <h1 class="textoPrincipal">Parquimetro</h1>
-            <h2 class="textoSecundario">Insira o valor para pagar o estacionamento</h2>
+             <h1 class="textoPrincipal">Parquimetro</h1>
+            <h2 class="textoSecundario">Insira o valor</h2>
 
             <input type="Number" id="valorInserido" placeholder="Tempo">
             <button onclick="calculadora.setValor()">Calcular Tempo</button>
@@ -18,6 +20,15 @@
             <p id="tempoFinal"></p>
         </div>
 
+        <aside>
+            <h1>Tabela de Valores</h1>
+            <div class="containerAside">
+                <span>30 min ---> R$ 1.00</span>
+                <span>60 min ---> R$ 1.75</span>
+                <span>120 min ---> R$ 3.00</span>
+            </div>
+        </aside>
+        
         <script src="script.js"></script>
     </body>
 </html>
